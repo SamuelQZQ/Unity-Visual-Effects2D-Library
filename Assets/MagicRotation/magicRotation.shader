@@ -1,6 +1,6 @@
 ﻿// reference: https://zhuanlan.zhihu.com/p/24371823
 
-Shader "Custom/magicRotation" 
+Shader "Custom/magic Rotation" 
 {
 	Properties
 	{

@@ -1,6 +1,6 @@
 ﻿// reference: https://zhuanlan.zhihu.com/p/25745293
 
-Shader "Custom/LoopBackground" 
+Shader "Custom/Loop Background" 
 {
     Properties 
     {

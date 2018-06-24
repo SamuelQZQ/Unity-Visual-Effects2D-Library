@@ -1,6 +1,6 @@
 ﻿/*can also used as water effect*/
 
-Shader "Custom/Hot Effect"
+Shader "Custom/CRT Effect"
 {
 	Properties
 	{
@@ -45,7 +45,7 @@ Shader "Custom/Hot Effect"
 			sampler2D _MainTex;
 			sampler2D _DisplaceTex;
 			float _Magnitude;
-
+/*
 			float4 frag(v2f i) : SV_Target
 			{
 				float2 distuv = float2(i.uv.x + _Time.x * 2, i.uv.y + _Time.x * 2);
@@ -59,6 +59,16 @@ Shader "Custom/Hot Effect"
 				float4 col = tex2D(_MainTex, i.uv + disp);
 				return col;
 			}
+            */
+            float4 frag(v2f_img i) : COLOR {
+                half2 n = tex2D(_DisplaceTex, i.uv);
+                half2 d = n * 2 -1;
+                i.uv += d * _Magnitude;
+                i.uv = saturate(i.uv);
+
+                float4 c = tex2D(_MainTex, i.uv);
+                return c;
+            }
 			ENDCG
 		}
 	}
