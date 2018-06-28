@@ -1,9 +1,9 @@
 ﻿<Properties StartupConfiguration="{A66BEA40-861E-F463-4AF4-9AA603B6A7CD}|">
   <MonoDevelop.Ide.ItemProperties.Unity-Special-Effects-2D PreferredExecutionTarget="Unity.Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/HotEffect/HotEffect.shader">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/MagicRotation/magicRotation.shader">
     <Files>
-      <File FileName="Assets/LoopBackground/LoopBackground.shader" Line="1" Column="15" />
-      <File FileName="Assets/MagicRotation/magicRotation.shader" Line="1" Column="1" />
+      <File FileName="Assets/LoopBackground/LoopBackground.shader" Line="3" Column="21" />
+      <File FileName="Assets/MagicRotation/magicRotation.shader" Line="3" Column="22" />
       <File FileName="Assets/LoopBackground/LoopBackground.cs" Line="10" Column="5" />
       <File FileName="Assets/GPU Particles/ParticlesSolver.compute" Line="21" Column="12" />
       <File FileName="Assets/GPU Particles/ParticlesManager.cs" Line="1" Column="1" />
