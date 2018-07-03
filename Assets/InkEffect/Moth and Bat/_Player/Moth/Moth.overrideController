@@ -1,0 +1,12 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Moth
+  m_Controller: {fileID: 9100000, guid: 77b16c2d1446d48b9be155510a34a348, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 79053d523aa594ffa95f7c1a377b00f2, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 24ecd0f40c8c14f1ebe8ffcf299b6e5d, type: 2}

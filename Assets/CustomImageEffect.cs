@@ -10,4 +10,5 @@ public class CustomImageEffect : MonoBehaviour
 		if (EffectMaterial != null)
 			Graphics.Blit(src, dst, EffectMaterial);
 	}
+
 }

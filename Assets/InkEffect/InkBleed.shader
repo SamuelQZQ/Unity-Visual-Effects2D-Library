@@ -69,6 +69,8 @@ Shader "Hidden/InkBleed"
 					float2 bleedOffset = (tex2D(_InkBleedMap, i.inkuv + offsetOffset) - 0.25) * 2;
 
 					fixed4 col = tex2D(_PrevFrame, i.uv1 + bleedOffset * _InkBleedMag) + _InkFadeMag;
+                    col = min(col, float4(1,1,1,1));
+                    // col = sqrt(col);
 					col *= tex2D(_MainTex, i.uv0);
 
 					return col;
