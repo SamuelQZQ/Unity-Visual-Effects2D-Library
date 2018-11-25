@@ -4,7 +4,7 @@
 Material:
   serializedVersion: 6
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: InkBleed
   m_Shader: {fileID: 4800000, guid: 1e770cc688cd68d48af6d63955182711, type: 3}
@@ -36,5 +36,5 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _InkBleedMag: 0.005
-    - _InkFadeMag: 0.075
+    - _InkFadeMag: 0.1
     m_Colors: []
